@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div id="player1" class="dplayer"></div>
+    <!-- ... -->
+    <script src="../../static/playVideo/hls.min.js"></script>
+    <script src="../../static/playVideo/DPlayer.min.js"></script>
+
+    <script>
+    var dp = new DPlayer({
+    // ...
+    video: {
+    url: '{{ url }}'
+    // ...
+    }
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../static/js/jquery.min.js"></script>
+
+    <script src="../../static/js/nas.js"></script>
+    <title>nas</title>
+</head>
+<body>
+    <ul class="DataList">
+        {% for i in directory %}
+            <li class="Dir">
+                <img src="../../static/img/dir.jpg" alt="">
+                <p class="DirFillName">{{ i }}</p>
+            </li>
+        {% endfor %}
+
+        {% for i in file %}
+            <li class="Fill">
+                <img src="../../static/img/dir.jpg" alt="">
+                <a ></a>
+                <a href="video?url={{ i }}" class="DirFillName">{{ i }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+</body>
+<style>
+    .DataList li{
+        height: 180px;
+        width: 150px;
+        float: left;
+        list-style: none;
+        padding: 1em;
+        {#background-color: blue;#}
+    }
+        .DataList li img{
+        height: 150px;
+        width: 150px;
+        {#background-color: blue;#}
+    }
+</style>
+</html>
