@@ -1,0 +1,17 @@
+.videoListBox {
+	margin-top: 30px;
+	width: 100%;
+}
+.videoListTitle{
+	font-size: 26px;
+	margin-bottom: 13px;
+}
+.videoListP {
+	margin-top: 10px;
+	font-size: 18px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	width: 100%;
+	/* color: #22b50c; */
+}

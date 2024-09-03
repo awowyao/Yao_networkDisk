@@ -1,0 +1,58 @@
+.el-menu{
+    height: 100%;
+    border: none;
+
+}
+.el-Nasmenu:not(.el-menu--collapse) {
+  width: 200px;
+  min-height: 400px;
+}
+
+.phoneMenuItems,.phoneMenuItem {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	justify-content: center;
+}
+.phoneMenuItem {
+	width: 100%;
+	height: 40px;
+	/* background-color: antiquewhite; */
+}
+.MenuSizeProgressView {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+	align-items: center;
+}
+.MenuSizeProgress {
+	width: 86%;
+}
+
+.MenuSizeProgressText {
+	width: 86%;
+	margin-top: 8px;
+	color: #d3d3d3;
+	text-align: center;
+	
+}
+
+@media (max-width:800px) {
+	.el-menu{
+		display: none;
+		
+	}
+}
+@media (min-width:801px) {
+	.el-menu{
+		display: block;
+
+	}
+	.phoneCollapse {
+		display: none;
+	}
+}

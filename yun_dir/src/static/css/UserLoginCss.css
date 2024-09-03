@@ -1,0 +1,96 @@
+.LoginH1 {
+		margin: 0;
+		font-size: 52px;
+		margin-bottom: 1rem;
+}
+
+.login {
+	position: absolute;
+	right: 1.25rem;
+	height: 40px;
+}
+
+.LoginApp,
+.LogsinBox,
+.login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.LoginApp {
+	z-index: 10;
+	/* position: fixed; */
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(206, 206, 206, 0.8);
+}
+
+.LogsinBox {
+	position: relative;
+	width: 28rem;
+	height: 34.5rem;
+	background-color: #ffffff;
+}
+
+
+.LoginFrom {
+	width: 80%;
+}
+
+.UserFrom,
+.UserBotton {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+.UserBotton {
+	align-items: center;
+	justify-content: center;
+}
+
+.UserBotton :deep(.el-button) {
+	margin: 10px 30px;
+}
+
+.UserBottonD {
+	margin: 0;
+	width: 120px;
+	height: 40px;
+	font-size: 18px;
+}
+
+.LoginText {
+	width: 80px;
+	font-size: 1.425rem;
+
+}
+
+.UserErrowText {
+	visibility: hidden;
+	color: #ff1515;
+	margin-left: 80px;
+	font-size: 16px;
+}
+
+.LoginInput {
+	width: calc(100% - 70px);
+	height: 38px;
+	font-size: 18px;
+}
+
+.AddUser {
+	height: 600px;
+}
+
+@media (max-width:800px) {
+	.LogsinBox {
+		width: 100%;
+		height: 100%;
+	}
+}

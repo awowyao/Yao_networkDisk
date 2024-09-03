@@ -1,0 +1,46 @@
+@media (max-width:501px) {
+	.DataListItem {
+		width: calc(33% - 8px);
+		height: 140px;
+		margin: 4px;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	
+}
+
+@media (min-width:500px) and (max-width:800px){
+	.DataListItem {
+		width: calc(33% - 8px);
+		margin: 4px;
+		height: 160px;
+	}
+}
+
+@media (min-width:800px) and (max-width:1200px){
+	.DataListItem {
+		width: calc(25% - 8px);
+		margin: 4px;
+		height: 190px;
+	}
+}
+
+@media (min-width:1200px) and (max-width:1500px){
+	.DataListItem {
+		width: calc(19% - 3px);
+		margin: 6px;
+		height: 220px;
+	}
+}
+
+@media (min-width:1500px) and (max-width:1700px){
+	.DataListItem {
+		width: calc(15% + 4px);
+		margin: 8px;
+		height: 220px;
+	}
+}

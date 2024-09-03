@@ -1,0 +1,48 @@
+.UseNuber, .TemNuber,.MemoryNuber {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(234, 234, 234, 0.2);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.CpuBox {
+	display: block;
+	margin-bottom: 30px;
+	/* height: 1000px; */
+	/* background-color: aqua; */
+}
+.UseNuber {
+	display: inline-flex;
+	width: calc(33% - 8px);
+	height: 270px;
+	margin-right: 10px;
+	/* background-color: aqua; */
+}
+.TemNuber {
+	display: inline-flex;
+	height: 270px;
+	margin-right: 10px;
+	width: calc(33% - 8px);
+	/* background-color: aqua; */
+}
+.MemoryNuber{
+	display: inline-flex;
+	height: 270px;
+	width: calc(33% - 8px);
+}
+.BoxTitle {
+	font-size: 38px;
+	margin-bottom: 10px;
+}
+
+
+
+@media (max-width:1100px) {
+	.TemNuber, .UseNuber, .MemoryNuber{
+		display: flex;
+		width: 100%;
+		margin:0;
+		margin-bottom: 20px;
+	}
+}

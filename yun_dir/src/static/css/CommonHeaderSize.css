@@ -1,0 +1,23 @@
+.UpContent {
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+}
+
+@media (max-width:801px) {
+	.phone{
+		display:block;
+	}
+	.windows {
+		display: none;
+	}
+}
+@media (min-width:801px) {
+	.phone{
+		display:none;
+	}
+	.windows {
+		display: block;
+	}
+}
