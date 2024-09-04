@@ -127,7 +127,9 @@
 				
 				let client = new OSS({
 				  region: '',
-				  secure: true,  
+				  secure: true,  // secure: 配合region使用，如果指定了secure为true，则使用HTTPS访问  
+				  accessKeyId: '',
+				  accessKeySecret: '',
 				  bucket: ''
 				})
 				
